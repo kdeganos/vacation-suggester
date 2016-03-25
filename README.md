@@ -1,4 +1,4 @@
-# _Vacation Suggestere_
+# _Vacation Suggester_
 
 #### _JavaScript and jQuery Exercise for Epicodus, 03.25.2016_
 
@@ -10,7 +10,7 @@ _This web page will make suggestions of suitable vacation destinations based on 
 
 ## Setup/Installation Requirements
 
-This web page also uses Bootstrap and jQuery.
+This web page also uses Bootstrap.
 
 ### License
 
