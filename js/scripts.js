@@ -2,8 +2,8 @@ $(function() {
 
   $("#survey").submit(function(event) {
     event.preventDefault();
-    $("#result").show();
-    $(".destination2").hide();
+    $("#result").hide();
+    $(".destination2").addClass("hide1");
 
     var antarctica = 0;
     var sanDiego = 0;
@@ -70,22 +70,23 @@ $(function() {
     else if (sanDiego > antarctica && sanDiego === boracay) {
       $(".destination").text("San Diego");
       $(".destination2").text(" or Boracay");
-      $(".destination2").show();
+      $(".destination2").removeClass("hide1");
     }
     else if (antarctica > sanDiego && antarctica === boracay) {
       $(".destination").text("Antarctica");
       $(".destination2").text(" or Boracay");
-      $(".destination2").show();
+      $(".destination2").removeClass("hide1");
     }
     else if (antarctica > boracay && antarctica === sanDiego) {
       $(".destination").text("Antarctica");
       $(".destination2").text(" or San Diego");
-      $(".destination2").show();
+      $(".destination2").removeClass("hide1");
     }
     else {
       $(".destination").text("Boracay");
     }
 
+    $("#result").fadeIn();
 
   });
 });
