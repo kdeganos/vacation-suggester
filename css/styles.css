@@ -1,8 +1,63 @@
+#survey {
+  padding: 0;
+}
+
+.boxed {
+  border: 2px solid #0047b2;
+  padding: 0;
+  margin: 0;
+}
+
 .question {
-  margin-top: 20px;
-  /*padding: 0;*/
+  /*margin-top: 20px;*/
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+#tempPic {
+  background: url(../img/temperature.jpg) no-repeat;
+}
+#disconnectPic {
+  background: url(../img/deserted.jpg) no-repeat;
+}
+#rainPic {
+  background: url(../img/rain.jpg) no-repeat;
+}
+#beachPic {
+  background: url(../img/beach.jpg) no-repeat;
+}
+#penguinPic {
+  background: url(../img/penguins.jpg) no-repeat center;
+}
+
+.radio {
+  padding-left: 30px;
 }
 
 .hide1 {
   display: none;
+}
+
+h4 {
+  color: white;
+  background: #0047b2;
+  padding: 10px;
+  margin: 0;
+}
+
+h5 {
+  background: #66b5ff;
+  padding: 10px;
+  width: 100%;
+  margin-top: 0;
+}
+
+button {
+  margin: 15px;
+}
+
+label {
+  color: white;
+  text-shadow: -1px 0 #494949, 0 1px #494949, 1px 0 #494949, 0 -1px #494949;
 }

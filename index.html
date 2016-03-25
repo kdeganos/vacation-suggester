@@ -10,123 +10,126 @@
   </head>
   <body>
     <div class="container">
-      <!-- <h1>Vacation Suggestions</h1>
-      <h2>Please select answers to the following questions about yourself to receive a suggestion of a suitable vacation destination.</h2> -->
+      <h1>Vacation Suggestions</h1>
 
       <!-- survey -->
       <form id="survey" class="container">
-        <div class = "container question">
-          <h4>What temperature do you prefer?</h4>
-          <div class="radio">
-            <label>
-              <input type="radio" name="temperature" value="1" checked>
-              Colder
-            </label>
+        <div class="boxed">
+          <h4>Please select answers to the following questions about yourself to receive a suggestion of a suitable vacation destination.</h4>
+          <div class = "container question" id="tempPic">
+            <h5>What temperature do you prefer?</h5>
+            <div class="radio">
+              <label>
+                <input type="radio" name="temperature" value="1" checked>
+                Colder
+              </label>
+              </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="temperature" value="2">
+                In-between
+              </label>
             </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="temperature" value="2">
-              In-between
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="temperature" value="3">
-              Warmer
-            </label>
-          </div>
-        </div>
-        <!-- End temperature question -->
-        <div class = "container question">
-          <h4>How much do you want to disconnect?</h4>
-          <div class="radio">
-            <label>
-              <input type="radio" name="disconnect" value="1" checked>
-              I wish the moon was an option
-            </label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="temperature" value="3">
+                Warmer
+              </label>
             </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="disconnect" value="3">
-              I'd like to be able to pretend like I'm unreachable
-            </label>
           </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="disconnect" value="2">
-              I need all the civization I can get
-            </label>
+          <!-- End temperature question -->
+          <div class = "container question" id="disconnectPic">
+            <h5>How much do you want to disconnect?</h5>
+            <div class="radio">
+              <label>
+                <input type="radio" name="disconnect" value="1" checked>
+                I wish the moon was an option
+              </label>
+              </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="disconnect" value="3">
+                I'd like to be able to pretend like I'm unreachable
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="disconnect" value="2">
+                I need all the civization I can get
+              </label>
+            </div>
           </div>
-        </div>
-        <!-- End disconnect question -->
-        <div class = "container question">
-          <h4>How do you like your precipitation?</h4>
-          <div class="radio">
-            <label>
-              <input type="radio" name="precipitation" value="1" checked>
-              Snow
-            </label>
+          <!-- End disconnect question -->
+          <div class = "container question" id="rainPic">
+            <h5>How do you like your precipitation?</h5>
+            <div class="radio">
+              <label>
+                <input type="radio" name="precipitation" value="1" checked>
+                Snow
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="precipitation" value="3">
+                Rain
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="precipitation" value="2">
+                Infrequent
+              </label>
+            </div>
           </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="precipitation" value="3">
-              Rain
-            </label>
+          <!-- End preciptiation question -->
+          <div class = "container question" id="beachPic">
+            <h5>How much do you like the beach?</h5>
+            <div class="radio">
+              <label>
+                <input type="radio" name="beach" value="1" checked>
+                It's not necessary
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="beach" value="2">
+                I'd like the option
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="beach" value="3">
+                I need blue water and white sand
+              </label>
+            </div>
           </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="precipitation" value="2">
-              Infrequent
-            </label>
+          <!-- End beach question -->
+          <div class = "container question" id="penguinPic">
+            <h5>Penguins?</h5>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="penguin" value="1" checked>
+                  Yes
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="penguin" value="2">
+                  Maybe in the zoo
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="penguin" value="3">
+                  Nope
+                </label>
+              </div>
           </div>
-        </div>
-        <!-- End preciptiation question -->
-        <div class = "container question">
-          <h4>How much do you like the beach?</h4>
-          <div class="radio">
-            <label>
-              <input type="radio" name="beach" value="1" checked>
-              It's not necessary
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="beach" value="2">
-              I'd like the option
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="beach" value="3">
-              I need blue water and white sand
-            </label>
-          </div>
-        </div>
-        <!-- End beach question -->
-        <div class = "container question">
-          <h4>Penguins?</h4>
-          <div class="radio">
-            <label>
-              <input type="radio" name="penguin" value="1" checked>
-              Yes
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="penguin" value="2">
-              Maybe in the zoo
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="penguin" value="3">
-              Nope
-            </label>
-          </div>
-          <br>
-          <button type="submit" class="btn">Submit</button>
         </div>
         <!-- End penguin question -->
+        <button type="submit" class="btn">Submit</button>
+        <br>
+        <br>
       </form>
       <!-- End survey -->
 
