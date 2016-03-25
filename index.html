@@ -14,149 +14,127 @@
       <h2>Please select answers to the following questions about yourself to receive a suggestion of a suitable vacation destination.</h2> -->
 
       <!-- survey -->
-      <div class="container survey">
+      <form id="survey" class="container">
         <div class = "container question">
-          <h4>Test</h4>
+          <h4>What temperature do you prefer?</h4>
           <div class="radio">
             <label>
-              <input type="radio" name="operator" value="1" checked>
-              add
+              <input type="radio" name="temperature" value="1" checked>
+              Colder
             </label>
             </div>
           <div class="radio">
             <label>
-              <input type="radio" name="operator" value="2">
-              subtract
+              <input type="radio" name="temperature" value="2">
+              In-between
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="operator" value="3">
-              subtract
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="operator" value="4">
-              subtract
+              <input type="radio" name="temperature" value="3">
+              Warmer
             </label>
           </div>
         </div>
-        <!-- End question -->
+        <!-- End temperature question -->
         <div class = "container question">
-          <h4>Test</h4>
+          <h4>How much do you want to disconnect?</h4>
           <div class="radio">
             <label>
-              <input type="radio" name="operator1" value="1" checked>
-              add
+              <input type="radio" name="disconnect" value="1" checked>
+              I wish the moon was an option
             </label>
             </div>
           <div class="radio">
             <label>
-              <input type="radio" name="operator1" value="2">
-              subtract
+              <input type="radio" name="disconnect" value="3">
+              I'd like to be able to pretend like I'm unreachable
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="operator1" value="3">
-              subtract
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="operator1" value="4">
-              subtract
+              <input type="radio" name="disconnect" value="2">
+              I need all the civization I can get
             </label>
           </div>
         </div>
-        <!-- End question -->
+        <!-- End disconnect question -->
         <div class = "container question">
-          <h4>Test</h4>
+          <h4>How do you like your precipitation?</h4>
           <div class="radio">
             <label>
-              <input type="radio" name="operator3" value="1" checked>
-              add
+              <input type="radio" name="precipitation" value="1" checked>
+              Snow
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="operator3" value="2">
-              subtract
+              <input type="radio" name="precipitation" value="3">
+              Rain
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="operator3" value="3">
-              subtract
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="operator3" value="4">
-              subtract
+              <input type="radio" name="precipitation" value="2">
+              Infrequent
             </label>
           </div>
         </div>
-        <!-- End question -->
+        <!-- End preciptiation question -->
         <div class = "container question">
-          <h4>Test</h4>
+          <h4>How much do you like the beach?</h4>
           <div class="radio">
             <label>
-              <input type="radio" name="operator4" value="1" checked>
-              add
+              <input type="radio" name="beach" value="1" checked>
+              It's not necessary
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="operator4" value="2">
-              subtract
+              <input type="radio" name="beach" value="2">
+              I'd like the option
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="operator4" value="3">
-              subtract
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="operator4" value="4">
-              subtract
+              <input type="radio" name="beach" value="3">
+              I need blue water and white sand
             </label>
           </div>
         </div>
-        <!-- End question -->
+        <!-- End beach question -->
         <div class = "container question">
-          <h4>Test</h4>
+          <h4>Penguins?</h4>
           <div class="radio">
             <label>
-              <input type="radio" name="operator5" value="1" checked>
-              add
+              <input type="radio" name="penguin" value="1" checked>
+              Yes
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="operator5" value="2">
-              subtract
+              <input type="radio" name="penguin" value="2">
+              Maybe in the zoo
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="operator5" value="3">
-              subtract
+              <input type="radio" name="penguin" value="3">
+              Nope
             </label>
           </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="operator5" value="4">
-              subtract
-            </label>
-          </div>
+          <br>
+          <button type="submit" class="btn">Submit</button>
         </div>
-        <!-- End question -->
-      </div>
+        <!-- End penguin question -->
+      </form>
       <!-- End survey -->
+
+      <!-- Begin show result -->
+      <div id="result" class="hide1">
+        <h1>You may enjoy <span class="destination"></span><span class="destination2 hide1"></span>.</h1>
+      </div>
+      <!-- End show result -->
     </div>
 
   </body>
